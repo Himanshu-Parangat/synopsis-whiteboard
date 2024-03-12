@@ -153,7 +153,7 @@ with variations in lighting, background noise, and other environmental factors
 that can impact the accuracy of the system.
 
 
-### 3.11 L. Guo, C. Huang, and Z. Zhao  conducted literature survey on A Multi-user Collaborative System for Creative Drawing. 
+### 3.11 L. Guo, C. Huang, and Z. Zhao  conducted a literature survey on A Multi-user Collaborative System for Creative Drawing. 
 
 The authors described the technical components of the system, including the computer 
 vision algorithms used for gesture recognition, the communication protocol for transmitting
@@ -162,7 +162,7 @@ performance in terms of accuracy, latency, and user satisfaction through a user 
 
 ---------------------------------------------------------------------
 
-## 4.0 Fesibility study
+## 4.0 Feasibility study
 
 
 ### 4.1 Hardware fesibility: 
@@ -197,7 +197,7 @@ essential for positioning the product effectively.
 
 In educational settings, AI whiteboards can facilitate remote learning and 
 enhance classroom collaboration. Teachers can deliver interactive lessons, annotate 
-content in real-time, and provide personalized feedback to students.
+content in real time, and provide personalized feedback to students.
 
 
 ### 4.4 Business and Meetings: 
@@ -216,26 +216,27 @@ and collaborate on digital canvases regardless of their physical location.
 ### 6.1 Discussion:
 
 
-*Hardware Support:*
+#### Hardware Support:
 
-Our system demands robust hardware capabilities to ensure optimal performance and 
+* Our system demands robust hardware capabilities to ensure optimal performance and 
 seamless user experience. The minimum hardware requirements include an X86_64 
 architecture, a minimum of 8GB RAM, and an i5 processor or equivalent. In addition, a depth
 sensor camera is essential for enhanced functionality. the primary focus is on
-64-bit systems, 32-bit or ARM architecture  will not be officially supported. 
+64-bit systems, 32-bit, or ARM architecture  will not be officially supported. 
 
-*Software Support:*
+#### Software Support:
 
-The software ecosystem is designed to operate on a variety of operating systems,
+* The software is designed to operate on various operating systems,
 providing flexibility and accessibility for users. The supported operating systems
 include Windows 10, Linux, macOS, and BSD, all based on the X86_64 architecture.
 
-note: custom builds, Linux From Scratch (LFS) immutable system or Nix overlay, 
-Gentoo packages or deprecated os will not be supported as well. (you need to build bin yourself)
-
-The software stack requires a system equipped with Python 3.9 and above, 
+* The software stack requires a system equipped with Python 3.9 and above, 
 with a modern Chromium-based browser for user interaction. Core 
 dependencies such as OpenCV and MediaPipe are needed
+
+`note:` custom builds, Linux From Scratch (LFS) immutable system or Nix overlay, 
+Gentoo packages or deprecated OS will not be supported either. (you need to build the bin yourself)
+
 
 
 ### 6.2 Current challenges
@@ -307,3 +308,20 @@ perform a wide range of tasks.
 AI whiteboards can improve accessibility for individuals with disabilities
 by providing alternative means of interaction. Users with mobility impairments, for example,
 can utilize gesture-based controls to engage with digital content more effectively.
+
+-----------------------------------------------------------
+## 7.0 bibliography
+
+list of refrences
+
+1. Rafiqul Zaman Khan, Noor Adnan Ibrahim “Hand gesture recognition” IJAIA 2020
+2. Z. Hu, X.Zhu “Gesture detection from RGB hand image using modified convolutional neural network.” IEEE 2019
+3. P.Kirchi, M.Cambek “Hand Gesture detection” IEEE 2019
+4. I.Dhall, S.Vashisth, G.Aggarwal “Automated Hand Gesture Recognition using a Deep Convolutional Neural Network model.” IEEE 2020
+5. S.Bansode, S.Varkhad, S.Dhaigude, S.Waghmare, S.Suryawanshi “Computer Vision Based Virtual Sketch Using Detection.” IJRASET 2022
+6. Y.Patil, M.Paun, D.Paun, K.Singh, V.Borate “Virtual Painting with Opencv Using Python.” IJSRST 2020
+7. Niharika M, Neha J, Mamatha Rao, Vidyashree K P “Virtual paint using hand gesture” IRJET 2022
+8. M.Idrees, M.Butt, A.Ahmad, H.Danish “Controlling PowerPoint using hand gesture in Python” ResearchGate 2021
+9. P.Srungavarapu, P.maganti, S.Sakhamura, “Virtual Sketch using Open CV” IJITEE 2020
+10. Z.Yuan, G.Jil, “Sketch recognition based intelligent whiteboard teaching system” ICCSSE 2008
+
