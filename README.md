@@ -165,17 +165,17 @@ performance in terms of accuracy, latency, and user satisfaction through a user 
 ## 4.0 Fesibility study
 
 
-### 4.1 Hardware Requirements: 
+### 4.1 Hardware fesibility: 
 
 The system requires a camera for capturing user interactions and a computing device for processing images
-and running deep learning models. These components are readily available and affordable, making the 
+and running deep-learning models. These components are readily available and affordable, making the 
 project technically feasible.
 
 
-### 4.2 Software Requirements: 
+### 4.2 Software fesibility: 
 
 Development frameworks such as TensorFlow or PyTorch can be used to implement deep learning algorithms
-but we can use pre trained libraries like OpenCV MediaPipe for hand and fingertip detection. 
+but we can use pre-trained libraries like OpenCV MediaPipe for hand and fingertip detection. 
 libraries for computer vision and user interface development are widely accessible, enhancing
 the feasibility of software implementation.
 
@@ -205,6 +205,101 @@ content in real-time, and provide personalized feedback to students.
 In corporate environments, AI whiteboards streamline brainstorming 
 sessions, presentations, and project collaboration. Participants can ideate, share ideas,
 and collaborate on digital canvases regardless of their physical location.
+
+
+
+
+---------------------------------------
+
+## 6.0 Facility required for proposed work
+
+### 6.1 Discussion:
+
+
+*Hardware Support:*
+
+Our system demands robust hardware capabilities to ensure optimal performance and 
+seamless user experience. The minimum hardware requirements include an X86_64 
+architecture, a minimum of 8GB RAM, and an i5 processor or equivalent. In addition, a depth
+sensor camera is essential for enhanced functionality. the primary focus is on
+64-bit systems, 32-bit or ARM architecture  will not be officially supported. 
+
+*Software Support:*
+
+The software ecosystem is designed to operate on a variety of operating systems,
+providing flexibility and accessibility for users. The supported operating systems
+include Windows 10, Linux, macOS, and BSD, all based on the X86_64 architecture.
+
+note: custom builds, Linux From Scratch (LFS) immutable system or Nix overlay, 
+Gentoo packages or deprecated os will not be supported as well. (you need to build bin yourself)
+
+The software stack requires a system equipped with Python 3.9 and above, 
+with a modern Chromium-based browser for user interaction. Core 
+dependencies such as OpenCV and MediaPipe are needed
+
+
+### 6.2 Current challenges
+
+* Our project faces a couple of hurdles that we're actively addressing. First up, 
+there's the task of seamlessly connecting the user interface (frontend) 
+with the backend. we're working to make sure your clicks and inputs 
+result in the right actions.
+
+* Another challenge we're tackling involves handling image data captured by the
+camera. Sometimes, the camera might act a bit like a flickering light, causing
+disruptions in the images we're trying to process. We're on it, though, 
+figuring out ways to smooth out these hiccups and make sure your visuals
+are consistently reliable.
+
+* Lastly, there's the matter of performance. It's like making sure your computer
+runs smoothly even when you have multiple applications open. Our goal is to 
+optimize the performance of our system so that you experience quick response 
+times without any annoying lags. We're putting in the effort to fine-tune 
+things and ensure a smooth user experience.
+
+
+### 6.3 Applications and Future Work:
+
+
+The scope of this project is
+It will produce effective communication between people
+that will reduce the use of laptops and mobile phones by
+abolishing the writing need. The major scope is in the
+teaching field while teaching online or teaching on screen.
+Without the mouse or any markers, we can easily implement
+on the screen. It will be used in designing purposes to create
+immersive or interactive designs.
+
+* Cross-Platform Compatibility: Extend compatibility to
+various operating systems and applications, making the
+system adaptable to different user needs
+
+* User Customization: Develop features that enable users
+to customize gesture definitions, making the system more
+personalized and versatile.
+
+* Performance improvement and Extended bug fixings and maintenance
+
+### 6.4 Conclusion:
+
+The system significantly contributes to the field of
+interactive learning and computer vision-based writing
+applications. By integrating existing approaches and
+introducing novel features, our solution offers a robust and
+versatile virtual canvas platform. Through the usage of
+MediaPipe and OpenCV, we have improved user experience
+and interaction.
+
+The field of Human-Computer Interaction has witnessed a
+remarkable transformation with the development and
+implementation of the Gesture-based system presented
+in this project. This innovative system enables users to
+interact with digital interfaces through intuitive hand
+gestures, providing a level of versatility and naturalness that
+traditional input devices struggle to match. Our project has
+addressed the limitations of conventional drawing tools,
+offering a seamless and efficient solution for users to
+perform a wide range of tasks. 
 
 
 ### 4.5 Accessibility: 
