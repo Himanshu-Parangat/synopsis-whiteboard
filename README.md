@@ -214,9 +214,101 @@ by providing alternative means of interaction. Users with mobility impairments, 
 can utilize gesture-based controls to engage with digital content more effectively.
 
 --------------------------------------
-## Methodology
+## 5.0 Methodology & Planning
+
+The total process of the system is explained in simple
+sequence diagram as shown :
+
 
 ![ Use Case Diagram ](assets/state_digram.png)
+
+
+
+The methodology implemented in the system is divided into
+four modules as follows :
+
+
+### 5.1 Capture frames OpenCV
+
+
+CV2 is a popular computer vision library for Python. It is the Python interface for OpenCV (Open-Source Computer
+Vision Library), a powerful and comprehensive library for image and video processing. It provides a wide range of
+functions and tools for tasks such as image manipulation, object detection, facial recognition, feature detection, and
+more. It supports various image and video file formats, including BMP, JPEG, PNG, and MPEG.
+Some of the key features of cv2 include image and video capture, image processing and filtering, object detection and
+tracking, and feature detection and extraction. It also includes functions for creating graphical user interfaces for
+computer vision applications.cv2 is widely used in the computer vision and image processing fields and is popular
+among developers and researchers. Its powerful functionality and ease of use make it a valuable tool for a wide range
+of applications, from simple image editing tasks to complex computer vision research projects
+
+
+
+
+### 5.2 Hand detection MediaPipe
+
+MediaPipe is a cross-platform framework for building multimodal applied ML pipelines. It is developed by Google and
+provides a collection of building blocks for creating complex computer vision and machine learning pipelines.
+MediaPipe offers pre-built components for tasks such as object detection, hand tracking, face detection and
+recognition, pose estimation, and many others. MediaPipe provides a flexible and easy-to-use pipeline for developers,
+allowing them to build custom models and pipelines without having to implement everything from scratch. The
+framework supports a variety of platforms, including desktop, mobile, and the web.
+MediaPipe is an open-source project and can be used under the Apache 2.0 license. It is built using the TensorFlow
+framework and provides pre-trained models for many tasks, which can be easily integrated into your own
+projects.MediaPipe is a powerful tool for developers who want to add computer vision and machine learning
+capabilities to their applications, without having to spend a lot of time on building and training models from scratch.
+Hand Gestures recognition works in two main phases:- palm detection and hand landmarks.
+
+#### 5.3 Palm Detection 
+
+The primary goal of palm detection is to identify the presence and location of a hand in the given input. For
+this the module utilizes a machine learning model trained to recognize the general structure and appearance of a human hand. It
+scans the input frames and identifies areas that likely contain a hand based on learned patterns. Once a hand is detected, the
+system provides information about the bounding box or region around the detected palm. This information serves as the
+foundation for further hand gesture analysis.
+
+#### 5.4 Hand Landmarks
+
+Hand landmarks involve the identification of specific points or landmarks on the detected hand, allowing for
+detailed tracking of its pose and movements. After palm detection, the module further analyzes the hand by identifying key
+landmarks, such as the tips of the fingers, the base of the hand, and points along the contours of the palm.
+The system outputs the 2D coordinates of these hand landmarks, providing a comprehensive understanding of the hand's spatial
+configuration. The landmark information enables precise tracking and interpretation of hand gestures. MediaPipe can pinpoint and
+recognize 21 specific points on a hand when given a close-up image, allowing for precise tracking of hand positions and gestures.
+
+
+
+
+#### 5.5 Canavas event
+
+
+Creating a canvas experience that's both intuitive and smooth with functionality and performance.
+In project, users can seamlessly in real-time.
+
+* Select 
+* Draw 
+* Erase
+* Switch between Colors
+* Save their creations. 
+
+  
+
+#### 5.6 os.event handling
+
+**os Module**
+The built-in os module provides a way to interact with the operating system, 
+allowing us to perform tasks like file and directory manipulation, 
+process management, and more.
+
+**subprocess Module**
+The subprocess module allows you to spawn new processes, connect to 
+their input/output/error pipes, and obtain their return codes. 
+It's useful for running external commands and controlling their
+behavior.
+
+**keyboard and mouse Modules**
+To control or simulate keyboard and mouse events, we can use 
+third-party libraries such as keyboard and mouse. These libraries
+allow you to interact with input devices programmatically.
 
 
 ---------------------------------------
