@@ -213,6 +213,11 @@ AI whiteboards can improve accessibility for individuals with disabilities
 by providing alternative means of interaction. Users with mobility impairments, for example,
 can utilize gesture-based controls to engage with digital content more effectively.
 
+--------------------------------------
+## Methodology
+
+![ Use Case Diagram ](assets/state_digram.png)
+
 
 ---------------------------------------
 
