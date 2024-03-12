@@ -207,6 +207,11 @@ sessions, presentations, and project collaboration. Participants can ideate, sha
 and collaborate on digital canvases regardless of their physical location.
 
 
+### 4.5 Accessibility: 
+
+AI whiteboards can improve accessibility for individuals with disabilities
+by providing alternative means of interaction. Users with mobility impairments, for example,
+can utilize gesture-based controls to engage with digital content more effectively.
 
 
 ---------------------------------------
@@ -301,13 +306,6 @@ traditional input devices struggle to match. Our project has
 addressed the limitations of conventional drawing tools,
 offering a seamless and efficient solution for users to
 perform a wide range of tasks. 
-
-
-### 4.5 Accessibility: 
-
-AI whiteboards can improve accessibility for individuals with disabilities
-by providing alternative means of interaction. Users with mobility impairments, for example,
-can utilize gesture-based controls to engage with digital content more effectively.
 
 -----------------------------------------------------------
 ## 7.0 bibliography
